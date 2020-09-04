@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 04</title>
+</head>
+<body>
+    <h2>Desenvolvimento de Sistemas</h2>    <!-- name e id indicam o campo dos inputs para dentro de uma linguagem especifica-->
+    <form name="Login" action="" method="POST">  <!--por boas práticas é comum usar a tag ID || action indica aonde as informações serão enviadas || method get ou post -->
+        <label>Nome:</label><br/>
+        <input type="text" maxlength="15" name="user" required/><br/> <!-- maxlenght limita a quantidade de caracteres || não esquecer de usar ou o name ou o ID -->
+        <label>Senha:</label><br/>
+        <input type="password" maxlength="8" name="password" required/><br/>  <!--password é especifico para senhas-->
+        <label>E-mail:</label><br/>
+        <input type="email" required/><br/>
+        <label>Idade:</label><br/>
+        <input type="number"/><br/>
+        <label>Cor:</label><br/>
+        <input type="color"/><br/>
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="Clear"/>
+    </form>
+</body> 
+</html>
